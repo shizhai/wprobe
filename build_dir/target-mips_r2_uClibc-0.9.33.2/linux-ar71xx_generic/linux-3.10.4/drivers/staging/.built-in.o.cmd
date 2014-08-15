@@ -1,0 +1,1 @@
+cmd_drivers/staging/built-in.o :=  mips-openwrt-linux-uclibc-ld  -m elf32btsmip   -r -o drivers/staging/built-in.o drivers/staging/staging.o drivers/staging/media/built-in.o drivers/staging/silicom/built-in.o 

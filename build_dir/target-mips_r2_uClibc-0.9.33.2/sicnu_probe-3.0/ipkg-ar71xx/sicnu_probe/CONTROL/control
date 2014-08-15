@@ -1,0 +1,11 @@
+Package: sicnu_probe
+Version: 3.0-1
+Depends: libc, libncurses
+Source: feeds/packages/net/sicnu_probe
+SourceFile: sicnu_probe-3.0.tar.gz
+Section: net
+Maintainer: shizhai <ysprogram@163.com>
+Architecture: ar71xx
+Installed-Size: 31157
+Description:  [ sicnu_probe ] is a scanning and analysis tool for 802.11 wireless networks
+ and collect mac of machine which associate with the network.

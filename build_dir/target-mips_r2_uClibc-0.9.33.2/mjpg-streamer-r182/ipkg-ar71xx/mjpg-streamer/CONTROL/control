@@ -1,0 +1,12 @@
+Package: mjpg-streamer
+Version: r182-1
+Depends: libc, libpthread, libjpeg
+Source: feeds/packages/multimedia/mjpg-streamer
+SourceFile: mjpg-streamer-r182.1.tar.bz2
+SourceURL: https://svn.code.sf.net/p/mjpg-streamer/code/mjpg-streamer-experimental
+License: GPL-2.0
+Section: multimedia
+Maintainer: Roger D <rogerdammit@gmail.com>
+Architecture: ar71xx
+Installed-Size: 32450
+Description:  Streaming application for Linux-UVC compatible webcams

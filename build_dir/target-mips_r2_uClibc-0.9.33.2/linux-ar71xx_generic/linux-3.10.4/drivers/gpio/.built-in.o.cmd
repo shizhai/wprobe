@@ -1,0 +1,1 @@
+cmd_drivers/gpio/built-in.o :=  mips-openwrt-linux-uclibc-ld  -m elf32btsmip   -r -o drivers/gpio/built-in.o drivers/gpio/devres.o drivers/gpio/gpiolib.o drivers/gpio/gpio-nxp-74hc153.o drivers/gpio/gpio-pcf857x.o 

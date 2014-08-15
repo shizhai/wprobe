@@ -1,0 +1,9 @@
+./
+./usr
+./usr/sbin
+./usr/sbin/block
+./usr/sbin/board
+./usr/sbin/mount_root
+./usr/sbin/lsbloader
+./usr/sbin/kmodloader
+./host

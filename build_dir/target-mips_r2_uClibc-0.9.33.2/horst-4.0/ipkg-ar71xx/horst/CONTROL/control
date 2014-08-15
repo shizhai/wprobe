@@ -1,0 +1,12 @@
+Package: horst
+Version: 4.0-1
+Depends: libc, libncurses
+Source: feeds/packages/net/horst
+SourceFile: horst-4.0-git.tar.gz
+SourceURL: git://br1.einfach.org/horst
+Section: net
+Maintainer: Bruno Randolf <br1@einfach.org>
+Architecture: ar71xx
+Installed-Size: 31939
+Description:  [horst] is a scanning and analysis tool for 802.11 wireless networks
+ and especially IBSS (ad-hoc) mode and mesh networks (OLSR).

@@ -1,0 +1,22 @@
+libc/string/generic/mempcpy.os: libc/string/generic/mempcpy.c \
+ include/libc-symbols.h include/bits/uClibc_arch_features.h \
+ include/string.h include/features.h include/bits/uClibc_config.h \
+ include/sys/cdefs.h include/libc-internal.h \
+ /home/shizhai/new_zhongwang/trunk/staging_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/initial/bin/../lib/gcc/mips-openwrt-linux-uclibc/4.6.4/include/stddef.h
+
+include/libc-symbols.h:
+
+include/bits/uClibc_arch_features.h:
+
+include/string.h:
+
+include/features.h:
+
+include/bits/uClibc_config.h:
+
+include/sys/cdefs.h:
+
+include/libc-internal.h:
+
+/home/shizhai/new_zhongwang/trunk/staging_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/initial/bin/../lib/gcc/mips-openwrt-linux-uclibc/4.6.4/include/stddef.h:
+cmd_libc_string_generic_mempcpy.os := mips-openwrt-linux-uclibc-gcc -c libc/string/generic/mempcpy.c -o libc/string/generic/mempcpy.os -include include/libc-symbols.h -Wall -Wstrict-prototypes -Wstrict-aliasing -funsigned-char -fno-builtin -fno-asm --std=gnu99 -ffunction-sections -fdata-sections -Wno-unused-but-set-variable -Os -pipe -mips32r2 -mtune=34kc -mno-branch-likely -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -ggdb -fno-stack-protector -nostdinc -Iinclude -Iinclude -I. -Ilibc/sysdeps/linux -Ilibc/sysdeps/linux/mips -Os -funit-at-a-time -fmerge-all-constants -fstrict-aliasing -fno-tree-loop-optimize -fno-tree-dominator-opts -fno-strength-reduce -mno-split-addresses -Ilibpthread/nptl -Ilibpthread/nptl -Ilibpthread/nptl/sysdeps/unix/sysv/linux/mips/mips -Ilibpthread/nptl/sysdeps/unix/sysv/linux/mips -Ilibpthread/nptl/sysdeps/mips -Ilibpthread/nptl/sysdeps/mips -Ilibpthread/nptl/sysdeps/unix/sysv/linux -Ilibpthread/nptl/sysdeps/unix/sysv/linux -Ilibpthread/nptl/sysdeps/pthread -Ilibpthread/nptl/sysdeps/pthread/bits -Ilibpthread/nptl/sysdeps/generic -Ildso/ldso/mips -Ildso/include -Ilibc/sysdeps/linux/common -I/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/linux-dev/include/ -isystem /home/shizhai/new_zhongwang/trunk/staging_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/initial/bin/.lib/gcc/mips-openwrt-linux-uclibc/4.6.4/include-fixed -isystem /home/shizhai/new_zhongwang/trunk/staging_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/initial/bin/.lib/gcc/mips-openwrt-linux-uclibc/4.6.4/include -DNDEBUG -D__USE_STDIO_FUTEXES__ -fPIC -MT libc/string/generic/mempcpy.os -MD -MP -MF libc/string/generic/.mempcpy.os.dep

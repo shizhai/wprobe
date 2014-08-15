@@ -1,0 +1,8 @@
+Package: smartHome
+Version: 2
+Depends: libc, libpthread
+Source: package/smartHome
+Section: utils
+Architecture: ar71xx
+Installed-Size: 12223
+Description:  the software of OpenWrt Router to manage light

@@ -1,0 +1,24 @@
+#!/bin/sh
+#reset the pre environment
+rm -rf /www/list
+rm -rf /www/cgi-bin/*.cfg
+rm -rf /www/cgi-bin/wifi_list
+rm -rf /www/cgi-bin/is*
+
+sed 's/#::askconsole/::askconsole/' /etc/inittab > /inittab
+mv /inittab /etc/inittab
+
+sed 's/ttyS0/ttyATH0/' /proc/cmdline > /root/cmdline
+mount -n --bind -o ro /root/cmdline /proc/cmdline
+
+#restore restart my program
+#sed '4d' /etc/inittab > /etc/inittab1
+#mv /etc/inittab1 /etc/inittab
+
+#netconfig file reset 
+cp -f /etc/config/networko /etc/config/network
+cp -f /etc/config/wirelesso /etc/config/wireless
+rm -rf /etc/config/networko
+rm -rf /etc/config/networkb
+rm -rf /etc/config/wirelesso
+rm -rf /etc/config/wirelessb

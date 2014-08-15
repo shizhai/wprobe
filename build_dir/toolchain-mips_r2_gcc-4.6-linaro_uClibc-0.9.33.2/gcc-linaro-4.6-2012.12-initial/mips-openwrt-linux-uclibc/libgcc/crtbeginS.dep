@@ -1,0 +1,71 @@
+crtbeginS.o: \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/libgcc/../gcc/crtstuff.c \
+ ../.././gcc/auto-host.h ../.././gcc/tconfig.h ../.././gcc/auto-host.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/../include/ansidecl.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/libgcc/../gcc/tsystem.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12-initial/./gcc/include/stddef.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12-initial/./gcc/include/float.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/../include/filenames.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/libgcc/../gcc/coretypes.h \
+ ../.././gcc/tm.h ../.././gcc/options.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/flag-types.h \
+ ../.././gcc/insn-constants.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/config/dbxelf.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/config/elfos.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/config/gnu-user.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/config/linux.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/config/glibc-stdint.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/config/mips/mips.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/config/vxworks-dummy.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/config/linux-android.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/config/mips/linux.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/defaults.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/libgcc/../gcc/unwind-dw2-fde.h
+
+../.././gcc/auto-host.h:
+
+../.././gcc/tconfig.h:
+
+../.././gcc/auto-host.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/../include/ansidecl.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/libgcc/../gcc/tsystem.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12-initial/./gcc/include/stddef.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12-initial/./gcc/include/float.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/../include/filenames.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/libgcc/../gcc/coretypes.h:
+
+../.././gcc/tm.h:
+
+../.././gcc/options.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/flag-types.h:
+
+../.././gcc/insn-constants.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/config/dbxelf.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/config/elfos.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/config/gnu-user.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/config/linux.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/config/glibc-stdint.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/config/mips/mips.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/config/vxworks-dummy.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/config/linux-android.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/config/mips/linux.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc/defaults.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/libgcc/../gcc/unwind-dw2-fde.h:

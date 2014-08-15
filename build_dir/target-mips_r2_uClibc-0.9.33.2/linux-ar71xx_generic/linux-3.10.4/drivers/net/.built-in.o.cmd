@@ -1,0 +1,1 @@
+cmd_drivers/net/built-in.o :=  mips-openwrt-linux-uclibc-ld  -m elf32btsmip   -r -o drivers/net/built-in.o drivers/net/mii.o drivers/net/Space.o drivers/net/loopback.o drivers/net/phy/built-in.o drivers/net/dsa/built-in.o drivers/net/ethernet/built-in.o drivers/net/hamradio/built-in.o drivers/net/wireless/built-in.o 

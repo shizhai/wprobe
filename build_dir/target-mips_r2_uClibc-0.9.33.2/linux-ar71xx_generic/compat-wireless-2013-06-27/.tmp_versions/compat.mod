@@ -1,0 +1,2 @@
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/linux-ar71xx_generic/compat-wireless-2013-06-27/compat/compat.ko
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/linux-ar71xx_generic/compat-wireless-2013-06-27/compat/main.o /home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/linux-ar71xx_generic/compat-wireless-2013-06-27/compat/backport-3.11.o

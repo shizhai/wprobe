@@ -1,0 +1,1 @@
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/netifd-2013-07-16/CMakeFiles/netifd.dir

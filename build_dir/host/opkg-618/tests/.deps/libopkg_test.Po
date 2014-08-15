@@ -1,0 +1,188 @@
+libopkg_test.o: libopkg_test.c /usr/include/stdio.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6/include/stddef.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h \
+ /usr/include/i386-linux-gnu/bits/stdio.h \
+ /usr/include/i386-linux-gnu/bits/stdio2.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h \
+ /home/shizhai/new_zhongwang/trunk/staging_dir/host/include/endian.h \
+ /home/shizhai/new_zhongwang/trunk/staging_dir/host/include/byteswap.h \
+ /usr/include/byteswap.h /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/endian.h /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/bits/select2.h \
+ /home/shizhai/new_zhongwang/trunk/staging_dir/host/include/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/bits/string.h \
+ /usr/include/i386-linux-gnu/bits/string2.h \
+ /usr/include/i386-linux-gnu/bits/string3.h /usr/include/libgen.h \
+ ../libopkg/opkg.h ../libopkg/pkg.h ../libopkg/config.h \
+ ../libopkg/pkg_vec.h ../libopkg/opkg_conf.h /usr/include/fnmatch.h \
+ ../libopkg/hash_table.h ../libopkg/pkg_src_list.h ../libopkg/pkg_src.h \
+ ../libopkg/nv_pair.h ../libopkg/void_list.h ../libopkg/list.h \
+ ../libopkg/pkg_dest_list.h ../libopkg/pkg_dest.h \
+ ../libopkg/nv_pair_list.h ../libopkg/str_list.h ../libopkg/active_list.h \
+ ../libopkg/conffile_list.h ../libopkg/conffile.h \
+ ../libopkg/pkg_depends.h ../libopkg/pkg_hash.h ../libopkg/opkg_message.h \
+ /usr/include/errno.h /usr/include/i386-linux-gnu/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/i386-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/i386-linux-gnu/bits/predefs.h:
+
+/usr/include/i386-linux-gnu/sys/cdefs.h:
+
+/usr/include/i386-linux-gnu/bits/wordsize.h:
+
+/usr/include/i386-linux-gnu/gnu/stubs.h:
+
+/usr/include/i386-linux-gnu/gnu/stubs-32.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include/stddef.h:
+
+/usr/include/i386-linux-gnu/bits/types.h:
+
+/usr/include/i386-linux-gnu/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include/stdarg.h:
+
+/usr/include/i386-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/i386-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/i386-linux-gnu/bits/stdio.h:
+
+/usr/include/i386-linux-gnu/bits/stdio2.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/i386-linux-gnu/bits/waitflags.h:
+
+/usr/include/i386-linux-gnu/bits/waitstatus.h:
+
+/home/shizhai/new_zhongwang/trunk/staging_dir/host/include/endian.h:
+
+/home/shizhai/new_zhongwang/trunk/staging_dir/host/include/byteswap.h:
+
+/usr/include/byteswap.h:
+
+/usr/include/i386-linux-gnu/bits/byteswap.h:
+
+/usr/include/endian.h:
+
+/usr/include/i386-linux-gnu/bits/endian.h:
+
+/usr/include/i386-linux-gnu/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/i386-linux-gnu/sys/select.h:
+
+/usr/include/i386-linux-gnu/bits/select.h:
+
+/usr/include/i386-linux-gnu/bits/sigset.h:
+
+/usr/include/i386-linux-gnu/bits/time.h:
+
+/usr/include/i386-linux-gnu/bits/select2.h:
+
+/home/shizhai/new_zhongwang/trunk/staging_dir/host/include/sys/sysmacros.h:
+
+/usr/include/i386-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/i386-linux-gnu/bits/stdlib.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/i386-linux-gnu/bits/string.h:
+
+/usr/include/i386-linux-gnu/bits/string2.h:
+
+/usr/include/i386-linux-gnu/bits/string3.h:
+
+/usr/include/libgen.h:
+
+../libopkg/opkg.h:
+
+../libopkg/pkg.h:
+
+../libopkg/config.h:
+
+../libopkg/pkg_vec.h:
+
+../libopkg/opkg_conf.h:
+
+/usr/include/fnmatch.h:
+
+../libopkg/hash_table.h:
+
+../libopkg/pkg_src_list.h:
+
+../libopkg/pkg_src.h:
+
+../libopkg/nv_pair.h:
+
+../libopkg/void_list.h:
+
+../libopkg/list.h:
+
+../libopkg/pkg_dest_list.h:
+
+../libopkg/pkg_dest.h:
+
+../libopkg/nv_pair_list.h:
+
+../libopkg/str_list.h:
+
+../libopkg/active_list.h:
+
+../libopkg/conffile_list.h:
+
+../libopkg/conffile.h:
+
+../libopkg/pkg_depends.h:
+
+../libopkg/pkg_hash.h:
+
+../libopkg/opkg_message.h:
+
+/usr/include/errno.h:
+
+/usr/include/i386-linux-gnu/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/i386-linux-gnu/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:

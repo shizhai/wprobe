@@ -1,0 +1,1 @@
+cmd_crypto/chainiv.ko := mips-openwrt-linux-uclibc-ld -r  -m elf32btsmip -T /home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/linux-ar71xx_generic/linux-3.10.4/scripts/module-common.lds -s --build-id  -o crypto/chainiv.ko crypto/chainiv.o crypto/chainiv.mod.o

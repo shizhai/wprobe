@@ -1,0 +1,1 @@
+cmd_fs/overlayfs/overlayfs.o := mips-openwrt-linux-uclibc-ld  -m elf32btsmip   -r -o fs/overlayfs/overlayfs.o fs/overlayfs/super.o fs/overlayfs/inode.o fs/overlayfs/dir.o fs/overlayfs/readdir.o fs/overlayfs/copy_up.o 

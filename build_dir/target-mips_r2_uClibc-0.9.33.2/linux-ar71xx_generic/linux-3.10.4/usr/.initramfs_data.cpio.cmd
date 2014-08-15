@@ -1,0 +1,1 @@
+cmd_usr/initramfs_data.cpio := /bin/bash /home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/linux-ar71xx_generic/linux-3.10.4/scripts/gen_initramfs_list.sh -o usr/initramfs_data.cpio   -d

@@ -1,0 +1,2 @@
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2013-07-24/CMakeFiles/ustream-example.dir
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2013-07-24/CMakeFiles/ustream-ssl.dir

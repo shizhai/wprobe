@@ -1,0 +1,1 @@
+../../libpthread/nptl/sysdeps/unix/sysv/linux/mips/bits/pthreadtypes.h

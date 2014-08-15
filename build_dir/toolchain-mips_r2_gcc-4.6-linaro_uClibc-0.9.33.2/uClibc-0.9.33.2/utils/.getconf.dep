@@ -1,0 +1,144 @@
+../utils/getconf: ../utils/getconf.c ../include/libc-symbols.h \
+ ../include/bits/uClibc_arch_features.h ../include/unistd.h \
+ ../include/features.h ../include/bits/uClibc_config.h \
+ ../include/sys/cdefs.h ../include/libc-internal.h \
+ ../include/bits/posix_opt.h ../include/bits/environments.h \
+ ../include/bits/wordsize.h ../include/bits/types.h \
+ /home/shizhai/new_zhongwang/trunk/staging_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/initial/bin/../lib/gcc/mips-openwrt-linux-uclibc/4.6.4/include/stddef.h \
+ ../include/bits/kernel_types.h ../include/bits/typesizes.h \
+ ../include/bits/pthreadtypes.h ../include/endian.h \
+ ../include/bits/endian.h ../include/byteswap.h \
+ ../include/bits/byteswap.h ../include/bits/byteswap-common.h \
+ ../include/sgidefs.h ../include/bits/confname.h ../include/bits/getopt.h \
+ ../include/ctype.h ../include/bits/uClibc_touplow.h ../include/errno.h \
+ ../include/bits/errno.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/linux-dev/include/linux/errno.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/linux-dev/include/asm/errno.h \
+ /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/linux-dev/include/asm-generic/errno-base.h \
+ ../include/string.h ../include/stdlib.h ../include/bits/waitflags.h \
+ ../include/bits/waitstatus.h ../include/sys/types.h ../include/time.h \
+ ../include/sys/select.h ../include/bits/select.h \
+ ../include/bits/sigset.h ../include/bits/time.h \
+ ../include/sys/sysmacros.h ../include/alloca.h \
+ ../include/bits/stackinfo.h ../include/stdio.h \
+ ../include/bits/uClibc_stdio.h ../include/wchar.h \
+ ../include/bits/wchar.h ../include/bits/uClibc_mutex.h \
+ ../include/pthread.h ../include/sched.h ../include/bits/sched.h \
+ ../include/bits/uClibc_clk_tck.h ../include/signal.h \
+ ../include/bits/setjmp.h ../include/bits/uClibc_pthread.h \
+ /home/shizhai/new_zhongwang/trunk/staging_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/initial/bin/../lib/gcc/mips-openwrt-linux-uclibc/4.6.4/include/stdarg.h \
+ ../include/bits/stdio_lim.h
+
+../include/libc-symbols.h:
+
+../include/bits/uClibc_arch_features.h:
+
+../include/unistd.h:
+
+../include/features.h:
+
+../include/bits/uClibc_config.h:
+
+../include/sys/cdefs.h:
+
+../include/libc-internal.h:
+
+../include/bits/posix_opt.h:
+
+../include/bits/environments.h:
+
+../include/bits/wordsize.h:
+
+../include/bits/types.h:
+
+/home/shizhai/new_zhongwang/trunk/staging_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/initial/bin/../lib/gcc/mips-openwrt-linux-uclibc/4.6.4/include/stddef.h:
+
+../include/bits/kernel_types.h:
+
+../include/bits/typesizes.h:
+
+../include/bits/pthreadtypes.h:
+
+../include/endian.h:
+
+../include/bits/endian.h:
+
+../include/byteswap.h:
+
+../include/bits/byteswap.h:
+
+../include/bits/byteswap-common.h:
+
+../include/sgidefs.h:
+
+../include/bits/confname.h:
+
+../include/bits/getopt.h:
+
+../include/ctype.h:
+
+../include/bits/uClibc_touplow.h:
+
+../include/errno.h:
+
+../include/bits/errno.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/linux-dev/include/linux/errno.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/linux-dev/include/asm/errno.h:
+
+/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/linux-dev/include/asm-generic/errno-base.h:
+
+../include/string.h:
+
+../include/stdlib.h:
+
+../include/bits/waitflags.h:
+
+../include/bits/waitstatus.h:
+
+../include/sys/types.h:
+
+../include/time.h:
+
+../include/sys/select.h:
+
+../include/bits/select.h:
+
+../include/bits/sigset.h:
+
+../include/bits/time.h:
+
+../include/sys/sysmacros.h:
+
+../include/alloca.h:
+
+../include/bits/stackinfo.h:
+
+../include/stdio.h:
+
+../include/bits/uClibc_stdio.h:
+
+../include/wchar.h:
+
+../include/bits/wchar.h:
+
+../include/bits/uClibc_mutex.h:
+
+../include/pthread.h:
+
+../include/sched.h:
+
+../include/bits/sched.h:
+
+../include/bits/uClibc_clk_tck.h:
+
+../include/signal.h:
+
+../include/bits/setjmp.h:
+
+../include/bits/uClibc_pthread.h:
+
+/home/shizhai/new_zhongwang/trunk/staging_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/initial/bin/../lib/gcc/mips-openwrt-linux-uclibc/4.6.4/include/stdarg.h:
+
+../include/bits/stdio_lim.h:

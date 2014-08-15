@@ -1,0 +1,10 @@
+Package: uclibcxx
+Version: 0.2.4-1
+Depends: libc
+Source: package/libs/uclibc++
+SourceFile: uClibc++-0.2.4.tar.bz2
+SourceURL: http://cxx.uclibc.org/src/
+Section: libs
+Architecture: ar71xx
+Installed-Size: 63377
+Description:  C++ library for embedded systems

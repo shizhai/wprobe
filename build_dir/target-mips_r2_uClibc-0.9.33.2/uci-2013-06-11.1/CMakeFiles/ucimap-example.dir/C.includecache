@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/uci-2013-06-11.1/list.h
+stddef.h
+-
+
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/uci-2013-06-11.1/ucimap-example.c
+strings.h
+-
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+ucimap.h
+-
+list.h
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/uci-2013-06-11.1/list.h
+
+uci.h
+uci_config.h
+/uci_config.h
+stdbool.h
+-
+setjmp.h
+-
+stdio.h
+-
+stdint.h
+-
+
+uci_config.h
+
+ucimap.h
+stdbool.h
+-
+uci.h
+/uci.h
+

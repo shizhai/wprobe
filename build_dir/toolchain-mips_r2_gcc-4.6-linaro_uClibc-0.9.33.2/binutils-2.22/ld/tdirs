@@ -1,0 +1,6 @@
+tdir_elf32btsmip=mips-openwrt-linux-uclibc
+tdir_elf32ltsmip=mips-openwrt-linux-uclibc
+tdir_elf32btsmipn32=mips-openwrt-linux-uclibc
+tdir_elf64btsmip=mips-openwrt-linux-uclibc
+tdir_elf32ltsmipn32=mips-openwrt-linux-uclibc
+tdir_elf64ltsmip=mips-openwrt-linux-uclibc

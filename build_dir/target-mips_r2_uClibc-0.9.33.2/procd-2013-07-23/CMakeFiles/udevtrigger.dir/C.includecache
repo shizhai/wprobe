@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/procd-2013-07-23/udevtrigger.c
+stdlib.h
+-
+stddef.h
+-
+stdarg.h
+-
+stdio.h
+-
+unistd.h
+-
+getopt.h
+-
+errno.h
+-
+dirent.h
+-
+fcntl.h
+-
+syslog.h
+-
+sys/stat.h
+-
+sys/types.h
+-
+string.h
+-
+

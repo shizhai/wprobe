@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/procd-2013-07-23/logread.c
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+time.h
+-
+stdio.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+syslog.h
+-
+libubox/blobmsg_json.h
+-
+libubox/usock.h
+-
+libubox/uloop.h
+-
+libubus.h
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/procd-2013-07-23/libubus.h
+

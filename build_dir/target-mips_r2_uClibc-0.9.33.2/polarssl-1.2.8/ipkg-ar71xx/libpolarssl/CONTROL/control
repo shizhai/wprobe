@@ -1,0 +1,12 @@
+Package: libpolarssl
+Version: 1.2.8-1
+Depends: libc
+Source: package/libs/polarssl
+SourceFile: polarssl-1.2.8-gpl.tgz
+SourceURL: https://polarssl.org/code/releases
+Section: libs
+Architecture: ar71xx
+Installed-Size: 103737
+Description:  The aim of the PolarSSL project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the PolarSSL library.

@@ -1,0 +1,102 @@
+#!/bin/sh
+#set the config of environment
+rm -rf /www/list
+sed 's/UTC/CST-8/' /etc/config/system > /system
+mv /system /etc/config/system
+sed 's/::askconsole/#::askconsole/' /etc/inittab > /inittab
+mv /inittab /etc/inittab
+sed 's/ttyATH0/ttyS0/' /proc/cmdline > /root/cmdline
+mount -n --bind -o ro /root/cmdline /proc/cmdline
+#create the /etc/config/files
+#create networko
+echo "config interface 'loopback'" > /etc/config/networko
+echo "	option ifname 'lo'" >> /etc/config/networko
+echo "	option proto 'static'" >> /etc/config/networko
+echo "	option ipaddr '127.0.0.1'" >> /etc/config/networko
+echo "	option netmask '255.0.0.0'" >> /etc/config/networko
+
+echo "config interface 'wan'" >> /etc/config/networko
+echo "	option ifname 'eth0'" >> /etc/config/networko
+echo "	option proto 'dhcp'" >> /etc/config/networko
+
+echo "config interface 'lan'" >> /etc/config/networko
+echo "	option _orig_ifname 'wlan0'" >> /etc/config/networko
+echo "	option _orig_bridge 'false'" >> /etc/config/networko
+echo "	option proto 'static'" >> /etc/config/networko
+echo "	option ipaddr '192.168.1.1'" >> /etc/config/networko
+echo "	option netmask '255.255.255.0'" >> /etc/config/networko
+
+#create networkb
+echo "config interface 'loopback'" > /etc/config/networkb
+echo "	option ifname 'lo'" >> /etc/config/networkb
+echo "	option proto 'static'" >> /etc/config/networkb
+echo "	option ipaddr '127.0.0.1'" >> /etc/config/networkb
+echo "	option netmask '255.0.0.0'" >> /etc/config/networkb
+
+echo "config globals 'globals'" >> /etc/config/networkb
+echo "	option ula_prefix 'fd92:0f58:53b4::/48'" >> /etc/config/networkb
+
+echo "config interface 'lan'" >> /etc/config/networkb
+echo "	option type 'bridge'" >> /etc/config/networkb
+echo "	option proto 'static'" >> /etc/config/networkb
+echo "	option ipaddr '192.168.1.1'" >> /etc/config/networkb
+echo "	option netmask '255.255.255.0'" >> /etc/config/networkb
+echo "	option ip6assign '60'" >> /etc/config/networkb
+
+echo "config interface 'wan'" >> /etc/config/networkb
+echo "	option ifname 'eth0'" >> /etc/config/networkb
+echo "	option macaddr '00:21:fe:11:22:33'" >> /etc/config/networkb
+echo "	option proto 'dhcp'" >> /etc/config/networkb
+
+echo "config interface 'wwan'" >> /etc/config/networkb
+echo "	option proto 'dhcp'" >> /etc/config/networkb
+
+#create wirelesso
+
+echo "config wifi-device 'radio0'" > /etc/config/wirelesso
+echo "	option type 'mac80211'" >> /etc/config/wirelesso
+echo "	option channel '11'">> /etc/config/wirelesso
+echo "	option hwmode '11ng'">> /etc/config/wirelesso
+echo "	option path 'platform/ar933x_wmac'">> /etc/config/wirelesso
+echo "	option htmode 'HT20'">> /etc/config/wirelesso
+echo "	list ht_capab 'SHORT-GI-20'">> /etc/config/wirelesso
+echo "	list ht_capab 'SHORT-GI-40'">> /etc/config/wirelesso
+echo "	list ht_capab 'RX-STBC1'">> /etc/config/wirelesso
+echo "	list ht_capab 'DSSS_CCK-40'">> /etc/config/wirelesso
+echo "	option txpower '27'">> /etc/config/wirelesso
+echo "	option country 'US'">> /etc/config/wirelesso
+
+echo "config wifi-iface">> /etc/config/wirelesso
+echo "	option network 'lan'">> /etc/config/wirelesso
+echo "	option ssid 'openwrt'">> /etc/config/wirelesso
+echo "	option device 'radio0'">> /etc/config/wirelesso
+echo "	option mode 'ap'">> /etc/config/wirelesso
+echo "	option encryption 'none'">> /etc/config/wirelesso
+
+#create wirelessb
+echo "config wifi-device 'radio0'"> /etc/config/wirelessb
+echo "	option type 'mac80211'">> /etc/config/wirelessb
+echo "	option channel '11'">> /etc/config/wirelessb
+echo "	option hwmode '11ng'">> /etc/config/wirelessb
+echo "	option path 'platform/ar933x_wmac'">> /etc/config/wirelessb
+echo "	option htmode 'HT20'">> /etc/config/wirelessb
+echo "	list ht_capab 'SHORT-GI-20'">> /etc/config/wirelessb
+echo "	list ht_capab 'SHORT-GI-40'">> /etc/config/wirelessb
+echo "	list ht_capab 'RX-STBC1'">> /etc/config/wirelessb
+echo "	list ht_capab 'DSSS_CCK-40'">> /etc/config/wirelessb
+echo "	option disabled '0'">> /etc/config/wirelessb
+echo "	option txpower '27'">> /etc/config/wirelessb
+echo "	option country 'US'">> /etc/config/wirelessb
+
+echo "config wifi-iface">> /etc/config/wirelessb
+echo "	option network 'wwan'">> /etc/config/wirelessb
+echo "	option ssid 'OpenWrtAP'">> /etc/config/wirelessb
+echo "	option encryption 'psk'">> /etc/config/wirelessb
+echo "	option device 'radio0'">> /etc/config/wirelessb
+echo "	option mode 'sta'">> /etc/config/wirelessb
+echo "	option bssid '14:CF:92:3C:1A:5C'">> /etc/config/wirelessb
+echo "	option key '2013SERVER_305'">> /etc/config/wirelessb
+
+#create restart my program
+#echo "::respawn:/usr/sbin/smartHome">>/etc/inittab
+

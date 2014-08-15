@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/polarssl-1.2.8/programs/pkey/rsa_decrypt.c
+string.h
+-
+stdio.h
+-
+polarssl/config.h
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/polarssl-1.2.8/programs/pkey/polarssl/config.h
+polarssl/rsa.h
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/polarssl-1.2.8/programs/pkey/polarssl/rsa.h
+
+include/polarssl/bignum.h
+stdio.h
+-
+string.h
+-
+config.h
+include/polarssl/config.h
+basetsd.h
+-
+inttypes.h
+-
+
+include/polarssl/config.h
+
+include/polarssl/rsa.h
+bignum.h
+include/polarssl/bignum.h
+

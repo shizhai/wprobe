@@ -1,0 +1,25 @@
+libc/sysdeps/linux/mips/_test_and_set.os: \
+ libc/sysdeps/linux/mips/_test_and_set.c include/libc-symbols.h \
+ include/bits/uClibc_arch_features.h include/features.h \
+ include/bits/uClibc_config.h include/sys/cdefs.h include/libc-internal.h \
+ /home/shizhai/new_zhongwang/trunk/staging_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/initial/bin/../lib/gcc/mips-openwrt-linux-uclibc/4.6.4/include/stddef.h \
+ libc/sysdeps/linux/mips/sys/tas.h include/sgidefs.h
+
+include/libc-symbols.h:
+
+include/bits/uClibc_arch_features.h:
+
+include/features.h:
+
+include/bits/uClibc_config.h:
+
+include/sys/cdefs.h:
+
+include/libc-internal.h:
+
+/home/shizhai/new_zhongwang/trunk/staging_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/initial/bin/../lib/gcc/mips-openwrt-linux-uclibc/4.6.4/include/stddef.h:
+
+libc/sysdeps/linux/mips/sys/tas.h:
+
+include/sgidefs.h:
+cmd_libc_sysdeps_linux_mips__test_and_set.os := mips-openwrt-linux-uclibc-gcc -c libc/sysdeps/linux/mips/_test_and_set.c -o libc/sysdeps/linux/mips/_test_and_set.os -include include/libc-symbols.h -Wall -Wstrict-prototypes -Wstrict-aliasing -funsigned-char -fno-builtin -fno-asm --std=gnu99 -ffunction-sections -fdata-sections -Wno-unused-but-set-variable -Os -pipe -mips32r2 -mtune=34kc -mno-branch-likely -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -ggdb -fno-stack-protector -nostdinc -Iinclude -Iinclude -I. -Ilibc/sysdeps/linux -Ilibc/sysdeps/linux/mips -Os -funit-at-a-time -fmerge-all-constants -fstrict-aliasing -fno-tree-loop-optimize -fno-tree-dominator-opts -fno-strength-reduce -mno-split-addresses -Ilibpthread/nptl -Ilibpthread/nptl -Ilibpthread/nptl/sysdeps/unix/sysv/linux/mips/mips -Ilibpthread/nptl/sysdeps/unix/sysv/linux/mips -Ilibpthread/nptl/sysdeps/mips -Ilibpthread/nptl/sysdeps/mips -Ilibpthread/nptl/sysdeps/unix/sysv/linux -Ilibpthread/nptl/sysdeps/unix/sysv/linux -Ilibpthread/nptl/sysdeps/pthread -Ilibpthread/nptl/sysdeps/pthread/bits -Ilibpthread/nptl/sysdeps/generic -Ildso/ldso/mips -Ildso/include -Ilibc/sysdeps/linux/common -I/home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/linux-dev/include/ -isystem /home/shizhai/new_zhongwang/trunk/staging_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/initial/bin/.lib/gcc/mips-openwrt-linux-uclibc/4.6.4/include-fixed -isystem /home/shizhai/new_zhongwang/trunk/staging_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/initial/bin/.lib/gcc/mips-openwrt-linux-uclibc/4.6.4/include -DNDEBUG -D__USE_STDIO_FUTEXES__ -fPIC -MT libc/sysdeps/linux/mips/_test_and_set.os -MD -MP -MF libc/sysdeps/linux/mips/._test_and_set.os.dep

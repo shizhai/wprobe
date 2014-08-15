@@ -1,0 +1,6 @@
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/ubus-2013-08-08/CMakeFiles/cli.dir
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/ubus-2013-08-08/examples/CMakeFiles/client.dir
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/ubus-2013-08-08/examples/CMakeFiles/server.dir
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/ubus-2013-08-08/CMakeFiles/ubus.dir
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/ubus-2013-08-08/lua/CMakeFiles/ubus_lua.dir
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/ubus-2013-08-08/CMakeFiles/ubusd.dir

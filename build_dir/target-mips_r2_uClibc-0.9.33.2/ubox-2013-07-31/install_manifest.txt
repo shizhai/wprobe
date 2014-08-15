@@ -1,0 +1,5 @@
+/usr/sbin/mount_root
+/usr/sbin/block
+/usr/sbin/kmodloader
+/usr/sbin/board
+/usr/sbin/lsbloader

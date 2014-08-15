@@ -1,0 +1,10 @@
+Package: arptables
+Version: 0.0.4-1
+Depends: libc, kmod-arptables
+Source: package/network/utils/arptables
+SourceFile: arptables-v0.0.4.tar.gz
+SourceURL: @SF/ebtables
+Section: net
+Architecture: ar71xx
+Installed-Size: 20016
+Description:  ARP firewalling software

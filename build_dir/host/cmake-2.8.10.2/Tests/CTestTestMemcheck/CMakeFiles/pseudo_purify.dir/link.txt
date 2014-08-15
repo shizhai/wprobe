@@ -1,0 +1,1 @@
+/usr/bin/gcc      CMakeFiles/pseudo_purify.dir/ret0.c.o  -o purify -rdynamic 

@@ -1,0 +1,5 @@
+@set version-GCC 4.6.4
+@clear DEVELOPMENT
+@set srcdir /home/shizhai/new_zhongwang/trunk/build_dir/toolchain-mips_r2_gcc-4.6-linaro_uClibc-0.9.33.2/gcc-linaro-4.6-2012.12/gcc
+@set VERSION_PACKAGE (OpenWrt/Linaro GCC 4.6-2012.12 r37742) 
+@set BUGURL @uref{https://dev.openwrt.org/}

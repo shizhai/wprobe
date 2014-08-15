@@ -1,0 +1,1 @@
+cmd_drivers/usb/core/usbcore.ko := mips-openwrt-linux-uclibc-ld -r  -m elf32btsmip -T /home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/linux-ar71xx_generic/linux-3.10.4/scripts/module-common.lds -s --build-id  -o drivers/usb/core/usbcore.ko drivers/usb/core/usbcore.o drivers/usb/core/usbcore.mod.o

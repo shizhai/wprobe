@@ -1,0 +1,11 @@
+Package: kmod-ledtrig-timer
+Version: 3.10.4-1
+Depends: kernel (=3.10.4-1-b57bea8259c0858a542abc9687dec959)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ar71xx
+Installed-Size: 1346
+Description:  Kernel module that allows LEDs to be controlled by a programmable timer
+ via sysfs

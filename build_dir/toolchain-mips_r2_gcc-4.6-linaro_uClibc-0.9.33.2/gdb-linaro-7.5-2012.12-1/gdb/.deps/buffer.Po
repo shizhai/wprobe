@@ -1,0 +1,58 @@
+buffer.o: common/buffer.c defs.h config.h build-gnulib/config.h \
+ ../include/ansidecl.h common/gdb_locale.h gdb_wchar.h \
+ build-gnulib/import/wctype.h ../include/gdb/signals.h \
+ ../include/gdb/signals.def ../include/libiberty.h ../include/ansidecl.h \
+ ../include/hashtab.h ../bfd/bfd.h ../include/symcat.h common/ptid.h \
+ cleanups.h ui-file.h ../include/fopen-bin.h common/common-utils.h \
+ config.h gdbarch.h common/xml-utils.h common/buffer.h \
+ build-gnulib/import/string.h build-gnulib/import/inttypes.h
+
+defs.h:
+
+config.h:
+
+build-gnulib/config.h:
+
+../include/ansidecl.h:
+
+common/gdb_locale.h:
+
+gdb_wchar.h:
+
+build-gnulib/import/wctype.h:
+
+../include/gdb/signals.h:
+
+../include/gdb/signals.def:
+
+../include/libiberty.h:
+
+../include/ansidecl.h:
+
+../include/hashtab.h:
+
+../bfd/bfd.h:
+
+../include/symcat.h:
+
+common/ptid.h:
+
+cleanups.h:
+
+ui-file.h:
+
+../include/fopen-bin.h:
+
+common/common-utils.h:
+
+config.h:
+
+gdbarch.h:
+
+common/xml-utils.h:
+
+common/buffer.h:
+
+build-gnulib/import/string.h:
+
+build-gnulib/import/inttypes.h:

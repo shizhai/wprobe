@@ -1,0 +1,5 @@
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/libubox-2013-08-01/CMakeFiles/blobmsg_json.dir
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/libubox-2013-08-01/CMakeFiles/jshn.dir
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/libubox-2013-08-01/CMakeFiles/json_script.dir
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/libubox-2013-08-01/CMakeFiles/ubox.dir
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/libubox-2013-08-01/lua/CMakeFiles/uloop_lua.dir

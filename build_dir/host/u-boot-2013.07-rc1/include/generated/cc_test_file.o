@@ -1,0 +1,11 @@
+	.file	"null"
+	.text
+.Ltext0:
+.Letext0:
+	.section	.debug_abbrev,"",@progbits
+.Ldebug_abbrev0:
+	.byte	0
+	.section	.debug_line,"",@progbits
+.Ldebug_line0:
+	.ident	"GCC: (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3"
+	.section	.note.GNU-stack,"",@progbits

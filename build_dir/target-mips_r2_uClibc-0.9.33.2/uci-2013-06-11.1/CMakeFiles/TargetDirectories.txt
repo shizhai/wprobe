@@ -1,0 +1,5 @@
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/uci-2013-06-11.1/CMakeFiles/cli.dir
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/uci-2013-06-11.1/CMakeFiles/uci.dir
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/uci-2013-06-11.1/lua/CMakeFiles/uci_lua.dir
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/uci-2013-06-11.1/CMakeFiles/ucimap.dir
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/uci-2013-06-11.1/CMakeFiles/ucimap-example.dir

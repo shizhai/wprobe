@@ -1,0 +1,10 @@
+kernel/crypto/crypto_wq.ko
+kernel/crypto/aead.ko
+kernel/crypto/crypto_blkcipher.ko
+kernel/crypto/chainiv.ko
+kernel/crypto/eseqiv.ko
+kernel/crypto/crypto_hash.ko
+kernel/crypto/arc4.ko
+kernel/crypto/crc32c.ko
+kernel/crypto/rng.ko
+kernel/crypto/krng.ko

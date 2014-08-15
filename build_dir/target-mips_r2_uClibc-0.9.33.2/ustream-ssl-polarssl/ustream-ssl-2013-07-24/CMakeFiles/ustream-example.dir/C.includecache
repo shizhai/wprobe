@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2013-07-24/ustream-example.c
+sys/socket.h
+-
+netinet/in.h
+-
+stdio.h
+-
+getopt.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+signal.h
+-
+libubox/ustream.h
+-
+libubox/uloop.h
+-
+libubox/usock.h
+-
+ustream-ssl.h
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2013-07-24/ustream-ssl.h
+
+/home/shizhai/new_zhongwang/trunk/build_dir/target-mips_r2_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2013-07-24/ustream-ssl.h
+libubox/ustream.h
+-
+

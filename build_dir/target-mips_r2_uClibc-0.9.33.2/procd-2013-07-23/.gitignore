@@ -1,0 +1,11 @@
+procd
+logread
+askfirst
+udevtrigger
+.*
+Makefile
+CMakeCache.txt
+CMakeFiles
+*.cmake
+install_manifest.txt
+
